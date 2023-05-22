@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukanya's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link  href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sukanya's Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#portfolio" style="--i:4;">Portfolio</a>
+            <!-- <a href="#education" style="--i:5;">Education</a> -->
+            <a href="#contact" style="--i:6;">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me!!!</h3><br/>
+            <h1>Sukanya Tulasi</h1><br/>
+            <h3>And I'm a <span class="change-text">Full Stack Devoloper</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, harum.</p>
+            <div class="social-media-icons">
+                <a class="#" style="--i:7;"><i class="fa-brands fa-instagram"></i></a>
+                <a class="#" style="--i:8;"> <i class="fa fa-youtube"></i></a>
+                <a class="#" style="--i:9;"> <i class="fa fa-linkedin"></i></a>
+                <a class="#" style="--i:10;"><i class="fa fa-github"></i></a>
+            </div>
+            <button>Download Resume</button>
+        </div>
+        <div class="home-img">
+            <img src="./assets/images/sukanya.jpg" alt="error" />
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets//images/sukanya.jpg" alt="error" style="height: 250px;width: 250px;" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About  <span>Me</span></h2>
+            <h3>Frontend Devoloper</h3>
+            <p>Hello World! I'm Tulasi Sukanya, a front end devoloper.I'm interested in all kinds of visual communication, but my major focus is on designing web interfaces. I also have skills in other fields like branding, icon design or web development.I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, drawing etc.. on learning new things...</p>
+            <a href="#" class="more-btn">Read More</a>
+        </div> 
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skills-heading">My <span>Skills</span></h2><br/>
+        <div class="skills-container">
+           <div class="skill">
+            <div class="subject">HTML</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="95%" style="max-width:94%"></div>
+            </div>
+           </div><br/>
+           <div class="skill">
+            <div class="subject">CSS</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="85%" style="max-width:75%"></div>
+            </div>
+           </div><br/>
+           <div class="skill">
+            <div class="subject">Javascript</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="80%" style="max-width:75%"></div>
+            </div>
+           </div><br/>
+           <div class="skill">
+            <div class="subject">React</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="75%" style="max-width:80%"></div>
+            </div>
+           </div><br/>
+           <div class="skill">
+            <div class="subject">NodeJs</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="80%" style="max-width:80%"></div>
+            </div>
+           </div><br/>
+           <div class="skill">
+            <div class="subject">MongoDb</div>
+            <div class="progress_bar">
+                <div class="Progress_line" value="80%" style="max-width:80%"></div>
+            </div>
+           </div><br/>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest  <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <a href="https://funny-clafoutis-0495c6.netlify.app/" target="_blank"><img src="./assets/images/Ecom.png" alt="error"></a> 
+                <div class="portfolio-layer">
+                    <a href="https://funny-clafoutis-0495c6.netlify.app/" target="_blank"> <h4>Ecommerce Project</h4> </a> 
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://aesthetic-bombolone-341dc6.netlify.app/" target="_blank"><img src="./assets/images/blog.png" alt="error"></a> 
+                <div class="portfolio-layer">
+                    <a href="https://aesthetic-bombolone-341dc6.netlify.app/" target="_blank"><h4>React Blog Project</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://fluffy-croissant-859466.netlify.app/" target="_blank"><img src="./assets/images/calculator.png" alt="error"></a> 
+                <div class="portfolio-layer">
+                    <a href="https://fluffy-croissant-859466.netlify.app/" target="_blank"> <h4>Calculator Project</h4> </a> 
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://reliable-starlight-e2b30a.netlify.app/" target="_blank"><img src="./assets/images/feedback form.png" alt="error"></a> 
+                <div class="portfolio-layer">
+                    <a href="https://reliable-starlight-e2b30a.netlify.app/" target="_blank"><h4>React Employee feedbackform</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://tulasi-sukanya.github.io/Guess-my-number-project/" target="_blank"><img src="./assets/images/guess my number.jpg" alt="error"></a> 
+                <div class="portfolio-layer">
+                    <a href="https://tulasi-sukanya.github.io/Guess-my-number-project/" target="_blank"><h4>Guess my number project</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://tulasi-sukanya.github.io/Todo-App/" target="_blank"><img src="./assets/images/todo with js.jpg" alt="error"></a>
+                <div class="portfolio-layer">
+                    <a href="https://tulasi-sukanya.github.io/Todo-App/" target="_blank"><h4>Todo App With Js</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://tulasi-sukanya.github.io/Digital-Clock-Project/" target="_blank"><img src="./assets/images/digital clock.jpg" alt="error"></a>
+                <div class="portfolio-layer">
+                    <a href="https://tulasi-sukanya.github.io/Digital-Clock-Project/" target="_blank"><h4>Digital Clock Project</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://tulasi-sukanya.github.io/CSS-Assesment-5/page3.html" target="_blank"><img src="./assets/images/animatedcar.jpg" alt="error"></a>
+                <div class="portfolio-layer">
+                    <a href="https://tulasi-sukanya.github.io/CSS-Assesment-5/page3.html" target="_blank"><h4>Animated Car Project</h4></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://tulasi-sukanya.github.io/Todo-App-UI-web-project-CSS-/" target="_blank"><img src="./assets/images/todoapp css.jpg" alt="error"></a>
+                <div class="portfolio-layer">
+                    <a href="https://tulasi-sukanya.github.io/Todo-App-UI-web-project-CSS-/" target="_blank"><h4>Todo App Css</h4></a>
+                </div>
+            </div>
+        </div>
+    </section><br />
+    <!-- <section class="education">
+
+    </section> -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+               <input type="text" placeholder="FullName"/>
+               <input type="email" placeholder="Email Address"/> 
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number"/>
+                <input type="text" placeholder="Email Subject"/> 
+             </div>
+             <textarea name="" id="" cols="5" rows="8" placeholder="Your Message.." style="width: 71.8%;"></textarea><br/>
+             <input type="submit" value="Send Message" class="submit-btn" />
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sukanya Tulasi | All rights reserved..</p>
+        </div>
+        <div class="footer-top-icon">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <!-- <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script> -->
+    <script src="./script.js"></script>
+</body>
+</html>
